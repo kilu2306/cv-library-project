@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import uk.co.library.utilities.Utility;
 
 public class ResultPage extends Utility {
-    public void inIt(){
+    public  ResultPage(){
         PageFactory.initElements(driver,this);
     }
 @FindBy(xpath = "//h1[@class='search-header__title']")
