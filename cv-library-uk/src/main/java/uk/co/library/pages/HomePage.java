@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import uk.co.library.utilities.Utility;
 
 public class HomePage extends Utility {
-    public void inIt(){
+    public HomePage(){
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//input[@id='keywords']")
